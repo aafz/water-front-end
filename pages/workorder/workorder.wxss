@@ -1,0 +1,10 @@
+/* pages/workorder/workorder.wxss */
+.empty{
+  height: 10rpx;
+  background-color: rgb(192, 192, 192);
+}
+
+.van-tabs__line{
+  width: 25% !important;
+  background-color: #006676 !important;
+}

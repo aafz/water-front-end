@@ -1,0 +1,49 @@
+/* pages/workbench/workbench.wxss */
+
+.bench{
+  width: 100%;
+  height: 500px;
+  padding-top: 15px;
+  background-color:#e3e4e6 ;
+}
+
+/* .van-sidebar{
+  height: 100%;
+} */
+
+
+
+.benchbox{
+background-color:white;
+margin: 0 15px 15px 15px;
+box-shadow: 0 0 5px #002535;
+border-radius: 7px;
+padding:5px 10px;
+/* height: 100px; */
+}
+
+.benchtitle{
+  margin-bottom: 3px;
+}
+/* .benchmethods{
+display: flex;
+
+} */
+
+.benchempty{
+  width: 100%;
+  height: 200rpx;
+  background-image: linear-gradient(#e3e4e6,#ffffff,#ffffff);
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  /* background-color: rgb(59, 59, 59);
+  transform: scale(0.5); */   
+  /* 使用上面这个导致线条往后移了一半 */
+  /* background-color: rgb(59, 59, 59);
+  transform: scaleY(0.5); */  
+  /* 这样才可以 */
+  background-image: linear-gradient(#000, #fff);
+}

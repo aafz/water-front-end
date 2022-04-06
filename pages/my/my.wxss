@@ -1,0 +1,46 @@
+/* pages/my/my.wxss */
+.myima{
+  width: 100%;
+  height: 200rpx;
+  /* background-color: aqua; */
+  text-align: center;
+  position: relative;
+  top: -30rpx;
+}
+.van-image--round{
+  box-shadow: 0 0 10px  #002535;
+}
+
+.mylistgroup{
+  margin-bottom: 100rpx;
+}
+.mylist{
+  padding-top: 25rpx;
+  width: 100%;
+  /* height: 600rpx; */
+}
+.van-cell-group{
+  box-shadow: 0 0 5px  #002535;
+}
+
+.myexist{
+  width: 100%;
+  height: 200rpx;
+text-align: center;
+}
+.myexist .exist{
+  /* height: 20px; */
+  width: 80%;
+  background-color: white;
+  color: rgb(165, 0, 0);
+  border-radius: 50px;
+}
+
+
+.shadow10{
+  box-shadow: 0 0 10px  #002535;
+}
+
+.van-button--normal{
+  width: 300px;
+}

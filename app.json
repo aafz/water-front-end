@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/workbench/workbench",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/workorder/workorder",
+    "pages/inslist/inslist",
+    "pages/sitedetail/sitedetail",
+    "pages/alarmlist/alarmlist",
+    "pages/changePWD/changePWD",
+    "pages/personalMes/personalMes",
+    "pages/submitWO/submitWO",
+    "pages/maintainWO/maintainWO",
+    "pages/wodetail/wodetail",
+    "pages/insdetail/insdetail",
+    "pages/maintainIns/maintainIns",
+    "pages/sitelist/sitelist",
+    "pages/alarmdetail/alarmdetail"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#002535",
+    "navigationBarTitleText": "水务运维",
+    "navigationBarTextStyle": "white"
+  }, 
+  "tabBar": {
+    "custom":true,
+    "color": "#c1c1c1",
+    "selectedColor":"#ffffff",
+    "backgroundColor":"#ffffff",
+    "position":"bottom" ,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/workbench/workbench",
+        "text": "工作台"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+  }
+ 
+}

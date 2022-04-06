@@ -1,0 +1,61 @@
+<!--pages/submitWO/submitWO.wxml-->
+<text>pages/submitWO/submitWO.wxml</text>
+<view class="addwo">
+    <view class="from">
+        <view class="title">
+            <text>发起工单</text>
+        </view>
+        <view class="line"></view>
+        <!-- wo标题 -->
+        <view class="form-item">
+            <van-field model:value="{{ value }}" placeholder="请输入工单标题" border="{{ false }}" />
+            <view class="line"></view>
+
+        </view>
+        <!-- 站点名称 -->
+        <view class="form-item">
+            <!-- 这两个要绑定起来，唤醒 -->
+            <van-field model:value="{{ value }}" placeholder="请选择站点" border="{{ false }}" />
+            <van-picker columns="{{ columns }}" bind:change="onChange" />
+            <view class="line"></view>
+
+        </view>
+        <!-- 故障类型 -->
+        <view class="form-item">
+            <van-field model:value="{{ value }}" placeholder="请输入故障类型" border="{{ false }}" />
+            <van-picker columns="{{ faultTypes }}" bind:change="onChange" />
+            <view class="line"></view>
+        </view>
+        <!-- 故障等级 -->
+        <view class="form-item">
+            <van-radio-group value="{{ radio }}" bind:change="onChange" direction="horizontal">
+                <van-radio name="1">特别紧急</van-radio>
+                <van-radio name="2">紧急</van-radio>
+                <van-radio name="3">一般</van-radio>
+                <van-radio name="4">不急</van-radio>
+            </van-radio-group>
+            <view class="line"></view>
+        </view>
+        <!-- 问题描述 -->
+        <view class="form-item">
+            <van-field model:value="{{ value }}" placeholder="请输入用户名" border="{{ false }}" />
+            <van-cell-group>
+                <van-field value="{{ message }}" type="textarea" placeholder="请输入工单描述" autosize border="{{ false }}" />
+            </van-cell-group>
+            <view class="line"></view>
+        </view>
+        <!-- 巡检人员tel -->
+        <view class="from-item">
+            <!-- 这个也可能不用输入框，直接用text渲染 -->
+            <van-field model:value="{{ value }}" placeholder="请输入用户tel" border="{{ false }}" />
+            <view class="line"></view>
+
+        </view>
+        <!-- 现场拍照 -->
+        <view class="from-item">
+            <van-uploader file-list="{{ fileList }}" />
+        </view>
+
+        <van-button type="primary" block>确认添加</van-button>
+    </view>
+</view>

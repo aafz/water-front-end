@@ -1,0 +1,7 @@
+/* pages/changePWD/changePWD.wxss */
+
+.tip-text{
+    /* font-size: .8rem; */
+    color: rgb(255, 0, 0);
+    /* margin-top: .5rem; */
+}

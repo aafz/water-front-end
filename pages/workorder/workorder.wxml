@@ -1,0 +1,16 @@
+<!--pages/workorder/workorder.wxml-->
+<van-tabs sticky animated>
+  <van-tab title="待完成">
+    <view class="empty"></view>
+    
+  </van-tab>
+  <van-tab title="已完成">
+    <view class="empty"></view>
+
+  </van-tab>
+  <van-tab title="全部">
+    <view class="empty"></view>
+    
+  </van-tab>
+
+</van-tabs>

@@ -1,0 +1,19 @@
+<!--pages/workbench/workbench.wxml-->
+<view class="bench">
+  <!-- <van-sidebar active-key="{{ activeKey }}"> -->
+  <!-- activeKey到时候根据用户的身份选择 -->
+  <!-- <van-sidebar-item title="用户" disabled="{{true}}"/> -->
+  <!-- disabled到时候用响应式绑定 -->
+  <!-- <van-sidebar-item title="运维人员" />
+    <van-sidebar-item title="测试人员" />
+    <van-sidebar-item title="管理人员" />
+    <van-sidebar-item title="超级管理" />
+  </van-sidebar> -->
+  <view class="benchbox">
+    <view class="benchtitle">用户</view>
+    <view class="line"></view>
+    <!-- <view class="benchmethods">    </view> -->
+  </view>
+
+</view>
+<view class="benchempty"></view>
